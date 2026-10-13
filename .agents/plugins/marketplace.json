@@ -1,0 +1,22 @@
+{
+  "name": "codex-weft",
+  "description": "Weft terminal integrations for Codex",
+  "owner": {
+    "name": "NeonOrchard Studio",
+    "url": "https://neonorchard.studio"
+  },
+  "plugins": [
+    {
+      "name": "weft",
+      "description": "Native Weft notifications when Codex completes tasks or needs input",
+      "source": "./plugins/weft",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "version": "1.0.0",
+      "category": "productivity",
+      "tags": ["notifications", "terminal", "weft"]
+    }
+  ]
+}
